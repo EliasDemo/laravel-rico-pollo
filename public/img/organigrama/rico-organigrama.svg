@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1000" viewBox="0 0 2000 1000">
+  <style>
+    .title { font-family: Arial, sans-serif; font-size: 22px; font-weight: bold; }
+    .label { font-family: Arial, sans-serif; font-size: 11px; }
+    .legend-text { font-family: Arial, sans-serif; font-size: 11px; }
+    .level { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; }
+    .box { stroke:#333333; stroke-width:1; fill:white; }
+    .gob { fill:#f4b183; }   /* Órgano de Gobierno */
+    .lin { fill:#c6e0b4; }   /* Órganos de Línea */
+    .op  { fill:#ffe699; }   /* Órganos de Operaciones */
+    .ases{ fill:#bdd7ee; }   /* Órganos de Asesoría */
+    .apo { fill:#d9c2e9; }   /* Órganos de Apoyo */
+  </style>
+
+  <!-- Fondo blanco -->
+  <rect x="0" y="0" width="2000" height="1000" fill="#ffffff"></rect>
+
+  <!-- Título -->
+  <text x="1000" y="40" text-anchor="middle" class="title">
+    ORGANIGRAMA DE CORPORACIÓN RICO POLLO
+  </text>
+
+  <!-- Leyenda (izquierda) -->
+  <text x="80" y="70" class="legend-text" font-weight="bold">Leyenda</text>
+
+  <rect x="80" y="90" width="16" height="16" fill="#f4b183" stroke="#333333" stroke-width="1"></rect>
+  <text x="104" y="102" class="legend-text" text-anchor="start">1. Órgano de Gobierno</text>
+
+  <rect x="80" y="115" width="16" height="16" fill="#c6e0b4" stroke="#333333" stroke-width="1"></rect>
+  <text x="104" y="127" class="legend-text" text-anchor="start">2. Órganos de Línea</text>
+
+  <rect x="80" y="140" width="16" height="16" fill="#ffe699" stroke="#333333" stroke-width="1"></rect>
+  <text x="104" y="152" class="legend-text" text-anchor="start">3. Órganos de Operaciones</text>
+
+  <rect x="80" y="165" width="16" height="16" fill="#bdd7ee" stroke="#333333" stroke-width="1"></rect>
+  <text x="104" y="177" class="legend-text" text-anchor="start">4. Órganos de Asesoría</text>
+
+  <rect x="80" y="190" width="16" height="16" fill="#d9c2e9" stroke="#333333" stroke-width="1"></rect>
+  <text x="104" y="202" class="legend-text" text-anchor="start">5. Órganos de Apoyo</text>
+
+  <!-- Niveles (derecha) -->
+  <rect x="1760" y="155" width="170" height="30" fill="#f9f9f9" stroke="#333333" stroke-width="1"></rect>
+  <text x="1845" y="175" text-anchor="middle" class="level">Nivel Estratégico</text>
+
+  <rect x="1760" y="345" width="170" height="30" fill="#f9f9f9" stroke="#333333" stroke-width="1"></rect>
+  <text x="1845" y="365" text-anchor="middle" class="level">Nivel Táctico</text>
+
+  <rect x="1760" y="685" width="170" height="30" fill="#f9f9f9" stroke="#333333" stroke-width="1"></rect>
+  <text x="1845" y="705" text-anchor="middle" class="level">Nivel Operativo</text>
+
+  <!-- NIVEL ESTRATÉGICO -->
+
+  <!-- Director Ejecutivo -->
+  <rect x="890" y="60" width="220" height="46" rx="8" ry="8" class="box gob"></rect>
+  <text x="1000" y="88" text-anchor="middle" class="label" font-weight="bold">Director Ejecutivo</text>
+
+  <!-- Conexión Director -> fila de asesoría / Gerencia General -->
+  <line x1="1000" y1="106" x2="1000" y2="130" stroke="#333333" stroke-width="1.4"></line>
+
+  <!-- Barra horizontal asesoría -->
+  <line x1="400" y1="130" x2="1600" y2="130" stroke="#333333" stroke-width="1.2"></line>
+
+  <!-- Proyecto de Obras -->
+  <line x1="400" y1="130" x2="400" y2="150" stroke="#333333" stroke-width="1"></line>
+  <rect x="310" y="150" width="180" height="40" rx="8" ry="8" class="box ases"></rect>
+  <text x="400" y="174" text-anchor="middle" class="label">Proyecto de Obras</text>
+
+  <!-- Marcas e Imagen -->
+  <line x1="600" y1="130" x2="600" y2="150" stroke="#333333" stroke-width="1"></line>
+  <rect x="510" y="150" width="180" height="40" rx="8" ry="8" class="box ases"></rect>
+  <text x="600" y="174" text-anchor="middle" class="label">Marcas e Imagen</text>
+
+  <!-- Control de Calidad -->
+  <line x1="800" y1="130" x2="800" y2="150" stroke="#333333" stroke-width="1"></line>
+  <rect x="710" y="150" width="180" height="40" rx="8" ry="8" class="box ases"></rect>
+  <text x="800" y="174" text-anchor="middle" class="label">Control de Calidad</text>
+
+  <!-- Gerencia General -->
+  <line x1="1000" y1="130" x2="1000" y2="150" stroke="#333333" stroke-width="1"></line>
+  <rect x="910" y="150" width="180" height="40" rx="8" ry="8" class="box lin"></rect>
+  <text x="1000" y="174" text-anchor="middle" class="label" font-weight="bold">Gerencia General</text>
+
+  <!-- Departamento Legal -->
+  <line x1="1200" y1="130" x2="1200" y2="150" stroke="#333333" stroke-width="1"></line>
+  <rect x="1110" y="150" width="180" height="40" rx="8" ry="8" class="box ases"></rect>
+  <text x="1200" y="174" text-anchor="middle" class="label">Departamento Legal</text>
+
+  <!-- Sistema de Compras (Apoyo) -->
+  <line x1="1400" y1="130" x2="1400" y2="150" stroke="#333333" stroke-width="1"></line>
+  <rect x="1310" y="150" width="180" height="40" rx="8" ry="8" class="box apo"></rect>
+  <text x="1400" y="174" text-anchor="middle" class="label">Sistema de Compras</text>
+
+  <!-- Auditoría y Tributación -->
+  <line x1="1600" y1="130" x2="1600" y2="150" stroke="#333333" stroke-width="1"></line>
+  <rect x="1510" y="150" width="180" height="40" rx="8" ry="8" class="box ases"></rect>
+  <text x="1600" y="174" text-anchor="middle" class="label">Auditoría y Tributación</text>
+
+  <!-- Conexión Gerencia General -> Gerencias de Línea -->
+  <line x1="1000" y1="190" x2="1000" y2="230" stroke="#333333" stroke-width="1.2"></line>
+
+  <!-- NIVEL TÁCTICO: Gerencias de línea -->
+
+  <!-- Barra horizontal de gerencias -->
+  <line x1="400" y1="230" x2="1650" y2="230" stroke="#333333" stroke-width="1.2"></line>
+
+  <!-- Gerencia de Producción -->
+  <line x1="400" y1="230" x2="400" y2="255" stroke="#333333" stroke-width="1"></line>
+  <rect x="300" y="255" width="200" height="46" rx="8" ry="8" class="box lin"></rect>
+  <text x="400" y="283" text-anchor="middle" class="label">Gerencia de Producción</text>
+
+  <!-- Gerencia de Plantas y Procesos -->
+  <line x1="650" y1="230" x2="650" y2="255" stroke="#333333" stroke-width="1"></line>
+  <rect x="550" y="255" width="200" height="46" rx="8" ry="8" class="box lin"></rect>
+  <text x="650" y="283" text-anchor="middle" class="label">Gerencia de Plantas y Procesos</text>
+
+  <!-- Gerencia de Comercialización -->
+  <line x1="900" y1="230" x2="900" y2="255" stroke="#333333" stroke-width="1"></line>
+  <rect x="800" y="255" width="200" height="46" rx="8" ry="8" class="box lin"></rect>
+  <text x="900" y="283" text-anchor="middle" class="label">Gerencia de Comercialización</text>
+
+  <!-- Gerencia de Despacho y Distribución -->
+  <line x1="1150" y1="230" x2="1150" y2="255" stroke="#333333" stroke-width="1"></line>
+  <rect x="1050" y="255" width="200" height="46" rx="8" ry="8" class="box lin"></rect>
+  <text x="1150" y="283" text-anchor="middle" class="label">
+    Gerencia de Despacho y Distribución
+  </text>
+
+  <!-- Gerencia de Operaciones -->
+  <line x1="1400" y1="230" x2="1400" y2="255" stroke="#333333" stroke-width="1"></line>
+  <rect x="1300" y="255" width="200" height="46" rx="8" ry="8" class="box lin"></rect>
+  <text x="1400" y="283" text-anchor="middle" class="label">Gerencia de Operaciones</text>
+
+  <!-- Gerencia de Administración y Finanzas -->
+  <line x1="1650" y1="230" x2="1650" y2="255" stroke="#333333" stroke-width="1"></line>
+  <rect x="1550" y="255" width="200" height="46" rx="8" ry="8" class="box lin"></rect>
+  <text x="1650" y="283" text-anchor="middle" class="label">
+    Gerencia de Administración y Finanzas
+  </text>
+
+  <!-- NIVEL OPERATIVO: columnas de unidades -->
+
+  <!-- Columna Gerencia de Producción (Operaciones) -->
+  <line x1="400" y1="301" x2="400" y2="661" stroke="#333333" stroke-width="1"></line>
+  <rect x="305" y="331" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="400" y="353" text-anchor="middle" class="label">Planta de Incubación</text>
+
+  <rect x="305" y="386" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="400" y="408" text-anchor="middle" class="label">Granjas San José</text>
+
+  <rect x="305" y="441" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="400" y="463" text-anchor="middle" class="label">Granjas La Joya</text>
+
+  <rect x="305" y="496" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="400" y="518" text-anchor="middle" class="label">Granjas Santa Rosa</text>
+
+  <rect x="305" y="551" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="400" y="573" text-anchor="middle" class="label">Granjas Mejía</text>
+
+  <rect x="305" y="606" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="400" y="628" text-anchor="middle" class="label">Granjas Tacna</text>
+
+  <rect x="305" y="661" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="400" y="683" text-anchor="middle" class="label">Granjas Pocono</text>
+
+  <!-- Columna Gerencia de Plantas y Procesos (Operaciones) -->
+  <line x1="650" y1="301" x2="650" y2="606" stroke="#333333" stroke-width="1"></line>
+  <rect x="555" y="331" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="650" y="353" text-anchor="middle" class="label">Planta de Beneficio de Aves</text>
+
+  <rect x="555" y="386" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="650" y="408" text-anchor="middle" class="label">Planta de Tratado de Aves</text>
+
+  <rect x="555" y="441" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="650" y="463" text-anchor="middle" class="label">Planta de Preparados</text>
+
+  <rect x="555" y="496" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="650" y="518" text-anchor="middle" class="label">Planta de Embutidos</text>
+
+  <rect x="555" y="551" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="650" y="573" text-anchor="middle" class="label">Planta de Harinas</text>
+
+  <rect x="555" y="606" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="650" y="628" text-anchor="middle" class="label">Planta de Beneficio del Cerdo</text>
+
+  <!-- Columna Gerencia de Comercialización (Operaciones) -->
+  <line x1="900" y1="301" x2="900" y2="496" stroke="#333333" stroke-width="1"></line>
+  <rect x="805" y="331" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="900" y="353" text-anchor="middle" class="label">Ventas Arequipa</text>
+
+  <rect x="805" y="386" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="900" y="408" text-anchor="middle" class="label">Ventas Centro de la Sierra</text>
+
+  <rect x="805" y="441" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="900" y="463" text-anchor="middle" class="label">Ventas Centro de la Costa</text>
+
+  <rect x="805" y="496" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="900" y="518" text-anchor="middle" class="label">Ventas Lima</text>
+
+  <!-- Columna Gerencia de Despacho y Distribución (Operaciones) -->
+  <line x1="1150" y1="301" x2="1150" y2="386" stroke="#333333" stroke-width="1"></line>
+  <rect x="1055" y="331" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="1150" y="353" text-anchor="middle" class="label">
+    Despacho y Distribución de Procesados
+  </text>
+
+  <rect x="1055" y="386" width="190" height="34" rx="8" ry="8" class="box op"></rect>
+  <text x="1150" y="408" text-anchor="middle" class="label">
+    Despacho y Distribución de Aves Vivas
+  </text>
+
+  <!-- Columna Gerencia de Operaciones (Apoyo) -->
+  <line x1="1400" y1="301" x2="1400" y2="496" stroke="#333333" stroke-width="1"></line>
+  <rect x="1305" y="331" width="190" height="34" rx="8" ry="8" class="box apo"></rect>
+  <text x="1400" y="353" text-anchor="middle" class="label">Compras</text>
+
+  <rect x="1305" y="386" width="190" height="34" rx="8" ry="8" class="box apo"></rect>
+  <text x="1400" y="408" text-anchor="middle" class="label">Almacenes</text>
+
+  <rect x="1305" y="441" width="190" height="34" rx="8" ry="8" class="box apo"></rect>
+  <text x="1400" y="463" text-anchor="middle" class="label">Transporte y Talleres</text>
+
+  <rect x="1305" y="496" width="190" height="34" rx="8" ry="8" class="box apo"></rect>
+  <text x="1400" y="518" text-anchor="middle" class="label">Mantenimiento de Partes</text>
+
+  <!-- Columna Gerencia de Administración y Finanzas (Apoyo) -->
+  <line x1="1650" y1="301" x2="1650" y2="551" stroke="#333333" stroke-width="1"></line>
+  <rect x="1555" y="331" width="190" height="34" rx="8" ry="8" class="box apo"></rect>
+  <text x="1650" y="353" text-anchor="middle" class="label">Contabilidad</text>
+
+  <rect x="1555" y="386" width="190" height="34" rx="8" ry="8" class="box apo"></rect>
+  <text x="1650" y="408" text-anchor="middle" class="label">Costo</text>
+
+  <rect x="1555" y="441" width="190" height="34" rx="8" ry="8" class="box apo"></rect>
+  <text x="1650" y="463" text-anchor="middle" class="label">Finanzas y Riesgo</text>
+
+  <rect x="1555" y="496" width="190" height="34" rx="8" ry="8" class="box apo"></rect>
+  <text x="1650" y="518" text-anchor="middle" class="label">Recursos Humanos</text>
+
+  <rect x="1555" y="551" width="190" height="34" rx="8" ry="8" class="box apo"></rect>
+  <text x="1650" y="573" text-anchor="middle" class="label">Seguridad e Higiene Industrial</text>
+
+</svg>
