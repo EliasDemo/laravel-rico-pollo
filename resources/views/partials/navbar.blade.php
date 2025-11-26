@@ -1,8 +1,9 @@
 <nav class="navbar navbar-expand-lg navbar-rp fixed-top">
     <div class="container">
         <a class="navbar-brand" href="{{ route('inicio') }}">
-            <span style="color: #ffd200;">Rico</span>
-            <span style="color: #ffffff;">Pollo</span>
+            <span style="color: #f7f6f4;">RICO</span>
+            <span style="color: #e7e3db;">ALIMENTOS</span>
+
         </a>
 
         <button class="navbar-toggler" type="button"
