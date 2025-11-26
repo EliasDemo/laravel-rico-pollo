@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="rpCerdo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffb6c1"/>
+      <stop offset="100%" stop-color="#ff8098"/>
+    </linearGradient>
+  </defs>
+  <!-- Escudo -->
+  <path d="M32 4L12 16v17c0 11.7 7.7 22.2 20 26.1c12.3-3.9 20-14.4 20-26.1V16L32 4z"
+        fill="url(#rpCerdo)" stroke="#101528" stroke-width="2" />
+  <!-- Cabeza -->
+  <circle cx="32" cy="30" r="10" fill="#ffe4ea" stroke="#101528" stroke-width="2"/>
+  <!-- Hocico -->
+  <ellipse cx="32" cy="34" rx="5" ry="4" fill="#ffc0cb" stroke="#101528" stroke-width="1.5"/>
+  <circle cx="30" cy="34" r="1" fill="#101528"/>
+  <circle cx="34" cy="34" r="1" fill="#101528"/>
+  <!-- Orejas -->
+  <path d="M24 24L26 20L28 25Z" fill="#ffe4ea" stroke="#101528" stroke-width="1"/>
+  <path d="M40 24L38 20L36 25Z" fill="#ffe4ea" stroke="#101528" stroke-width="1"/>
+</svg>

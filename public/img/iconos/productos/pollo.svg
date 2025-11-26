@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="rpPollo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd200"/>
+      <stop offset="100%" stop-color="#f7a900"/>
+    </linearGradient>
+  </defs>
+  <!-- Escudo -->
+  <path d="M32 4L12 16v17c0 11.7 7.7 22.2 20 26.1c12.3-3.9 20-14.4 20-26.1V16L32 4z"
+        fill="url(#rpPollo)" stroke="#101528" stroke-width="2" />
+  <!-- Cuerpo del pollo -->
+  <circle cx="30" cy="34" r="10" fill="#ffffff" stroke="#101528" stroke-width="2"/>
+  <!-- Cabeza -->
+  <circle cx="40" cy="27" r="4" fill="#ffffff" stroke="#101528" stroke-width="2"/>
+  <!-- Pico -->
+  <path d="M44 27L48 29L44 31Z" fill="#f7a900" stroke="#101528" stroke-width="1"/>
+  <!-- Cresta -->
+  <circle cx="39" cy="21" r="2" fill="#c8102e"/>
+  <circle cx="41" cy="20" r="2" fill="#c8102e"/>
+</svg>

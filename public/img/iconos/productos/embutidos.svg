@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="rpEmbu" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffe0cc"/>
+      <stop offset="100%" stop-color="#ff9966"/>
+    </linearGradient>
+  </defs>
+  <!-- Escudo -->
+  <path d="M32 4L12 16v17c0 11.7 7.7 22.2 20 26.1c12.3-3.9 20-14.4 20-26.1V16L32 4z"
+        fill="url(#rpEmbu)" stroke="#101528" stroke-width="2" />
+  <!-- Salchichón / embutido -->
+  <rect x="20" y="26" width="24" height="12" rx="6"
+        fill="#ffb38a" stroke="#101528" stroke-width="1.8"/>
+  <!-- Rebanadas -->
+  <circle cx="24" cy="32" r="4" fill="#ffd6b8" stroke="#101528" stroke-width="1.5"/>
+  <circle cx="26" cy="31" r="0.8" fill="#e07a5f"/>
+  <circle cx="22.5" cy="33" r="0.8" fill="#e07a5f"/>
+  <circle cx="25" cy="33.5" r="0.8" fill="#e07a5f"/>
+</svg>
