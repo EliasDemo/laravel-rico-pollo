@@ -1072,28 +1072,28 @@
     <div class="row g-3 mt-3">
 
         <div class="col-12 col-md-6 text-center">
-            <img src="{{ asset('img/foda/foda-interno-1.svg') }}"
+            <img src="{{ asset('img/foda/foda-interno-1.png') }}"
                 alt="FODA Interno Imagen 1"
                 style="width: 100%; border-radius: 10px;
                        box-shadow: 0 4px 14px rgba(0,0,0,0.20);">
         </div>
 
         <div class="col-12 col-md-6 text-center">
-            <img src="{{ asset('img/foda/foda-interno-2.svg') }}"
+            <img src="{{ asset('img/foda/foda-interno-2.png') }}"
                 alt="FODA Interno Imagen 2"
                 style="width: 100%; border-radius: 10px;
                        box-shadow: 0 4px 14px rgba(0,0,0,0.20);">
         </div>
 
         <div class="col-12 col-md-6 text-center">
-            <img src="{{ asset('img/foda/foda-interno-3.svg') }}"
+            <img src="{{ asset('img/foda/foda-interno-3.png') }}"
                 alt="FODA Interno Imagen 3"
                 style="width: 100%; border-radius: 10px;
                        box-shadow: 0 4px 14px rgba(0,0,0,0.20);">
         </div>
 
         <div class="col-12 col-md-6 text-center">
-            <img src="{{ asset('img/foda/foda-interno-4.svg') }}"
+            <img src="{{ asset('img/foda/foda-interno-4.png') }}"
                 alt="FODA Interno Imagen 4"
                 style="width: 100%; border-radius: 10px;
                        box-shadow: 0 4px 14px rgba(0,0,0,0.20);">
@@ -1239,7 +1239,7 @@
 
         {{-- IMAGEN 1 – Cuadro de Porter --}}
         <div class="text-center my-3">
-            <img src="{{ asset('img/foda/porter-rico.svg') }}"
+            <img src="{{ asset('img/foda/porter-rico.png') }}"
                  alt="Cuadro de Porter Corporación Rico"
                  style="max-width: 95%; height: auto; border-radius: 10px;
                         box-shadow: 0 4px 14px rgba(0,0,0,0.20);">
@@ -1263,7 +1263,7 @@
 
         {{-- IMAGEN 2 – PESTEL (Parte 1) --}}
         <div class="text-center my-3">
-            <img src="{{ asset('img/foda/pestel-rico-1.svg') }}"
+            <img src="{{ asset('img/foda/pestel-rico-1.png') }}"
                  alt="PESTEL Corporación Rico Parte 1"
                  style="max-width: 95%; height: auto; border-radius: 10px;
                         box-shadow: 0 4px 14px rgba(0,0,0,0.20);">
@@ -1271,7 +1271,7 @@
 
         {{-- IMAGEN 3 – PESTEL (Parte 2) --}}
         <div class="text-center my-3">
-            <img src="{{ asset('img/foda/pestel-rico-2.svg') }}"
+            <img src="{{ asset('img/foda/pestel-rico-2.png') }}"
                  alt="PESTEL Corporación Rico Parte 2"
                  style="max-width: 95%; height: auto; border-radius: 10px;
                         box-shadow: 0 4px 14px rgba(0,0,0,0.20);">
@@ -1296,7 +1296,7 @@
 
         {{-- IMAGEN 4 – Matriz EFE --}}
         <div class="text-center my-3">
-            <img src="{{ asset('img/foda/efe-rico.svg') }}"
+            <img src="{{ asset('img/foda/efe-rico.png') }}"
                  alt="Matriz EFE Corporación Rico"
                  style="max-width: 95%; height: auto; border-radius: 10px;
                         box-shadow: 0 4px 14px rgba(0,0,0,0.20);">
@@ -1317,7 +1317,7 @@
 
     {{-- IMAGEN: Matriz CAME --}}
     <div class="text-center my-3">
-        <img src="{{ asset('img/planeamiento/came-rico.svg') }}"
+        <img src="{{ asset('img/foda/came-rico.png') }}"
              alt="Matriz CAME Corporación Rico"
              style="max-width: 98%; height: auto; border-radius: 12px;
                     box-shadow: 0 4px 18px rgba(0,0,0,0.20);">
@@ -1336,7 +1336,7 @@
 
     {{-- IMAGEN: Mapa Estratégico --}}
     <div class="text-center my-3">
-        <img src="{{ asset('img/planeamiento/mapa-estrategico-rico.svg') }}"
+        <img src="{{ asset('img/foda/mapa-estrategico-rico.png') }}"
              alt="Mapa Estratégico Corporación Rico"
              style="max-width: 98%; height: auto; border-radius: 12px;
                     box-shadow: 0 4px 18px rgba(0,0,0,0.20);">

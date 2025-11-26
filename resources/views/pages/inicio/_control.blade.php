@@ -21,7 +21,7 @@
 
     {{-- IMAGEN DEL BSC --}}
     <div class="text-center my-3">
-        <img src="{{ asset('img/bsc/bsc-rico.svg') }}"
+        <img src="{{ asset('img/foda/bsc-rico.svg') }}"
              alt="Cuadro de Mando Integral BSC - Corporación Rico"
              style="max-width: 98%; height: auto; border-radius: 12px;
                     box-shadow: 0 4px 18px rgba(0,0,0,0.20);">
@@ -50,7 +50,7 @@
 
     {{-- IMAGEN SISTEMAS (ERP/BI/IoT) --}}
     <div class="text-center my-3">
-        <img src="{{ asset('img/sistemas/erp-bsc-rico.svg') }}"
+        <img src="{{ asset('img/foda/erp-bsc-rico.svg') }}"
              alt="Sistemas de Información Corporación Rico"
              style="max-width: 98%; height: auto; border-radius: 12px;
                     box-shadow: 0 4px 18px rgba(0,0,0,0.20);">
